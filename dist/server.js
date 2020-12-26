@@ -4,6 +4,7 @@ var name = 'chandra';
 var age = 23;
 var gender = 'male';
 var sayHi = function (name, age, gender) {
-    console.log("Hi " + name + ", age " + age + " and gender " + gender);
+    return "Hi " + name + ", age " + age + " and gender " + gender + "!";
 };
-sayHi(name, age);
+console.log(sayHi(name, age, gender));
+//# sourceMappingURL=server.js.map
